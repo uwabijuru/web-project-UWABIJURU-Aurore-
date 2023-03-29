@@ -1,0 +1,141 @@
+.header{
+  background-color: #19A7CE;
+  text-align: center;
+  padding: 20px;
+}
+body{
+  background-color: #BBD6B8;
+}
+.navbar{
+  background-color: #8F43EE;
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+}
+.navbar ul li{
+  display: inline-block;
+}
+.navbar li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+.navbar li a:hover {
+  background-color: #555;
+  color: white;
+  display:inline-block;
+}
+.verticalbar{
+  background-color: green;
+  display: block;
+  position: absolute;
+  left: 2px;
+  width: 200px;
+}
+.verticalbar ul{
+  list-style-type: none;
+  display: block;
+}
+.verticalbar ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.content2 {
+  position: absolute;
+  left: 200px;
+  background-color: #AAE3E2;
+  border: 1px solid #AAE3E2;
+  width: 940px;
+}
+.content2 img{
+  border-radius: 100px 100px 100px 100px;
+  width: 200px;
+  height: 200px;
+}
+.content2 h1{
+  float: ri;
+
+}
+.content22{
+  background-color: #AAE3E2;
+  position: absolute;
+  top: 380px;
+  left: 200px;
+  width: 940px;
+}
+.content22 h1{
+  text-align: center;
+  color: #A84448;
+}
+.about{
+  background-color: white;
+  color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+.list{
+  background-color: #AAE3E2;
+  position: absolute;
+  top: 525px;
+  left: 200px;
+  width: 940px;
+  height: 162px;
+}
+.ullist{
+  background-color: #7DB9B6;
+  margin-left: 5px;
+  width: 49%;
+  position: absolute;
+  top: 5px;
+}
+.ullist ul{
+  list-style-type: upper-alpha;
+}
+.ollist{
+  background-color: #183A1D;
+  margin-right: 2px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 49%;
+}
+.ollist ol{
+  list-style-type: upper-roman;
+}
+
+
+
+.content3{
+  display: block;
+  position: absolute;
+  right: 2px;
+  height: 150px;
+}
+
+.content3 img{
+  display: block;
+  width: 200px;
+  height: 150px;
+  padding: 6px;
+}
+
+
+.footer {
+  background-color: #8D7B68;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  top: 695px;
+  width: 1310px;
+}
+.footer p{
+  text-align: center;
+}

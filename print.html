@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Welcome to James Buchanan Pub and Restaurant</title>
+<link rel="stylesheet" type="text/css" href="xres/css/style.css" />
+<link rel="icon"  href="dddd.ico">
+<link type="text/css" href="css/styles.css" rel="stylesheet" media="all" />
+</head>
+<body>
+<script language="javascript">
+function Clickheretoprint()
+{ 
+  var disp_setting="toolbar=yes,location=no,directories=yes,menubar=yes,"; 
+      disp_setting+="scrollbars=yes,width=800, height=600, left=100, top=25"; 
+  var content_vlue = document.getElementById("print_content").innerHTML; 
+  
+  var docprint=window.open("","",disp_setting); 
+   docprint.document.open(); 
+   docprint.document.write('<html><head><title>Inel Power System</title>'); 
+   docprint.document.write('</head><body onLoad="self.print()" style="width: 400px; font-size:12px; font-family:arial;">');          
+   docprint.document.write(content_vlue);          
+   docprint.document.write('</body></html>'); 
+   docprint.document.close(); 
+   docprint.focus(); 
+   setTimeout(function(){
+   	docprint.close()
+   },750)
+}
+</script>
+Print and present this details upon boarding the bus<br><br>
+<a href="javascript:Clickheretoprint()">Print</a>
+<div id="print_content" style="width: 400px;">
+<strong>Ticket Reservation Details</strong><br><br>
+
+
+
+
+
+<a href="index.html">Home</a>
+</body>
+</html>
